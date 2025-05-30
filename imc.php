@@ -6,15 +6,84 @@
     <title>IMC Simples</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    *{
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 50px;   
+    background-color: white;
+    padding: 6%;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 100px;
+    /*margin-left: 450px; */
+    border-width: 8px;
+    border-style: solid;
+    border-color:  #fec343;
+    font-weight: 500;
+}
+.botao-enviar {
+  background-color: #fec343;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  transition: background-color 0.3s ease;
+}
+div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    height: 50px; 
+    color: #98928e;
+    font-weight: 500;
+    margin-top: 100px;
+}
+strong{
+    color: #fec343;
+}
+.placeholder {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: black;
+  font-weight: 500;
+  border-width: 3px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+</style>
 <body>
     <h1>Calculadora de IMC</h1>
 
     <form method="post">
-        Peso (kg): <input type="number" name ="peso"
+        Peso (kg): <input type="number" placeholder = "Insira o seu peso" name ="peso" class="placeholder"
         step="0.1" required><br><br>
-        Altura (m): <input type="number" name="altura"
+        Altura (m): <input type="number" placeholder = "Insira a sua altura" name="altura" class="placeholder"
         step="0.01" required><br><br>
-        <input type="submit" volume="Calcular IMC">
+        <input type="submit" volume="Calcular IMC" class="botao-enviar">
     </form>
 
 
