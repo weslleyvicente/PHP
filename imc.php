@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC Simples</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <style>
     *{
@@ -26,15 +25,12 @@ body {
 form{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    border-radius: 50%;
-    width: 300px;
-    height: 50px;   
-    background-color: white;
-    padding: 6%;
-    font-size: 18px;
     border-radius: 15px;
-    margin-top: 100px;
-    /*margin-left: 450px; */
+    width: 300px;
+    background-color: white;
+    padding: 1%;
+    font-size: 18px;
+    margin-top: 50px;
     border-width: 8px;
     border-style: solid;
     border-color:  #fec343;
@@ -67,7 +63,6 @@ strong{
 }
 .placeholder {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-color: black;
   font-weight: 500;
   border-width: 3px;
   border-radius: 30px;
